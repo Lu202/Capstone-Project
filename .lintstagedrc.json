@@ -1,0 +1,4 @@
+{
+  "*": "npm prettier:write",
+  "*.js": "npm prettier:write && npm eslint"
+}

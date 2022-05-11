@@ -1,4 +1,4 @@
 {
   "*": "npm prettier:write",
-  "*.js": "npm prettier:write && npm eslint"
+  "*.js": ["npm run prettier:write", "npm run eslint"]
 }

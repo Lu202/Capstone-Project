@@ -5,7 +5,9 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<>
 			<GlobalStyle />
-			<Component {...pageProps} />
+			<main className="container">
+				<Component {...pageProps} />
+			</main>
 		</>
 	);
 }

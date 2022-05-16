@@ -26,14 +26,14 @@ function Card({ name, bild }) {
 export default Card;
 
 const CardContainer = styled.div`
-	max-width: 576 px;
+	max-width: 18rem;
 	background: #f0f0f0;
 	border-radius: 70px;
 	display: flex;
-	padding: 0.6rem;
-	margin: 1.5rem;
+	padding: 0.3rem;
+	margin: 1.2rem;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
+	font-size: 10px;
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 	display: flex;
 	justify-content: space-between;

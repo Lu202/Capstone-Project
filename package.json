@@ -12,7 +12,9 @@
     "eslint": "npx eslint \"**/*.js\"",
     "prepare": "husky install",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "test": "jest --env=jsdom",
+    "test:watch": "jest --env=jsdom --watch"
   },
   "dependencies": {
     "next": "12.1.6",
@@ -43,6 +45,7 @@
     "eslint-plugin-storybook": "^0.5.11",
     "husky": "^8.0.1",
     "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
     "lint-staged": "^12.4.1",
     "prettier": "^2.6.2"
   }

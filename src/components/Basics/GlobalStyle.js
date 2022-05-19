@@ -7,6 +7,12 @@ const GlobalStyle = createGlobalStyle`
     color: none;
     opacity: 1;
     box-sizing: border-box; 
+
+}
+    :root {
+        --main-bg-color: #F0F0F0;
+        --button-bg-color: #1592E6;
+    
 }`;
 
 export default GlobalStyle;

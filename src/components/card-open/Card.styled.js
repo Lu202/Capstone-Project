@@ -10,6 +10,7 @@ const CardContainer = styled.div`
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	background: #f0f0f0;
 	line-height: 1.25rem;
+	margin: 1.8rem;
 `;
 
 export default CardContainer;

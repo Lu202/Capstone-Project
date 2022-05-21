@@ -4,6 +4,7 @@ import UpperContainer from './UpperContainer.styled';
 import ButtonContainer from './Button.styled';
 import React, { useState } from 'react';
 import Image from 'next/image';
+import ImageContainer from './ImageContainer';
 
 function Card({ health, name, age, feed, location, verhalten, image, notes }) {
 	const [show, setShow] = useState(false);
@@ -13,7 +14,9 @@ function Card({ health, name, age, feed, location, verhalten, image, notes }) {
 	return (
 		<CardContainer>
 			<UpperContainer>
-				<Image className="Card-image" src={image} alt="Hund" width="150" height="150" />
+				<ImageContainer>
+					<Image className="Card-image" src={image} alt="Hund" width="80" height="80" />
+				</ImageContainer>
 			</UpperContainer>
 
 			<LowerContainer>

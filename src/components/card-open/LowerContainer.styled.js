@@ -4,17 +4,17 @@ const LowerContainer = styled.article`
 	button {
 		border-radius: 5px;
 		border: 2px solid pink;
-		padding: 0.6rem;
+		padding: 0.4rem;
 		color: black;
 		letter-spacing: 0.1em;
 		font-size: 0.7rem;
 		text-transform: unset;
-		margin-left: 5.6rem;
-		margin-top: 0.6rem;
+		margin-left: 6rem;
 		transition-duration: 0.5s;
 		animation: ease-in-out;
+		margin: 0.1rem;
 	}
-	button,
+
 	p {
 		margin: 0.1rem;
 		font-size: 0.7rem;
@@ -25,6 +25,7 @@ const LowerContainer = styled.article`
 		font-size: 1rem;
 		margin: 0.9rem;
 		text-align: center;
+		letter-spacing: 0.1em;
 	}
 	&:hover button {
 		background-color: pink;
@@ -33,6 +34,7 @@ const LowerContainer = styled.article`
 	h4 {
 		padding-left: 0.9rem;
 		color: #3b3b3b;
+		padding-top: 0.8rem;
 	}
 	.hidden {
 		display: none;

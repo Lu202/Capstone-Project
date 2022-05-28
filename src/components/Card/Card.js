@@ -8,7 +8,9 @@ function Card({ name, health, age, feed, location, notes, image, behave }) {
 	return (
 		<>
 			<CardContainer>
-				<Image className="Card-image" src={image} alt="Hund" width="50" height="50" />
+				{image && (
+					<Image className="Card-image" src={image} alt="Hund" width="50" height="50" />
+				)}
 				<h2>{name}</h2>
 
 				<svg

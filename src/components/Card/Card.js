@@ -2,6 +2,7 @@ import CardContainer from './Card.styled';
 import Image from 'next/image';
 import { useState } from 'react';
 import Modal from '../modal/Modal';
+
 function Card({ name, health, age, feed, location, notes, image, behave }) {
 	const [openModal, setOpenModal] = useState(false);
 

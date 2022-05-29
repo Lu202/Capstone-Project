@@ -3,11 +3,11 @@ import styled from 'styled-components';
 const InputContainer = styled.div`
 	background-color: #f0f0f0;
 	width: 300px;
-	height: 550px;
-	border-radius: 5px;
+	height: 620px;
 	display:flex: center;
-	padding: 30px;
-	padding-bottom:
+	padding-left: 1.8rem;
+	padding-top:20px;
+	
 
 
 

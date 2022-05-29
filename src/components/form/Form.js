@@ -21,7 +21,7 @@ export default function Form() {
 	const [buttonText, setButtonText] = useState(initialButtonText);
 
 	const handleClick = () => {
-		setButtonText('added');
+		setButtonText('Added');
 
 		setTimeout(() => {
 			setButtonText(initialButtonText);
@@ -33,6 +33,7 @@ export default function Form() {
 			<form onSubmit={handleSubmit(onSubmit)}>
 				<InputContainer>
 					<h4>Animal Profil</h4>
+
 					<div>
 						<input
 							id="name"

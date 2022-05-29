@@ -7,9 +7,8 @@ const CardContainer = styled.div`
 	padding: 0.4rem;
 	margin: 1.3rem;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 10px;
+	font-size: 0.625em;
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	letter-spacing: 0.2em;

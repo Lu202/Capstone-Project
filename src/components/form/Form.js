@@ -34,7 +34,7 @@ export default function Form() {
 		<Wrapper>
 			<form onSubmit={handleSubmit(onSubmit)}>
 				<InputContainer>
-					<h4>Animal Profil</h4>
+					<h4>Animal Profile</h4>
 
 					<div>
 						<Label htmlFor="name">name</Label>

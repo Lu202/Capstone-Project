@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 const InputContainer = styled.div`
 	background-color: #f0f0f0;
-	width: 18.75rem;
 	display: flex:
 	padding-top: 1.25rem;
 	justify-content: center;

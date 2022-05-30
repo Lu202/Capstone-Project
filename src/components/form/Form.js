@@ -35,9 +35,9 @@ export default function Form() {
 			<form onSubmit={handleSubmit(onSubmit)}>
 				<InputContainer>
 					<h4>Animal Profil</h4>
-					<Label htmlFor="name">name</Label>
 
 					<div>
+						<Label htmlFor="name">name</Label>
 						<input
 							id="name"
 							type="text"

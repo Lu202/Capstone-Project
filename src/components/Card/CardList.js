@@ -4,7 +4,6 @@ import Card from './Card';
 
 function CardList() {
 	const newCards = useStore(state => state.newCards);
-	console.log(newCards);
 
 	return (
 		<ul>

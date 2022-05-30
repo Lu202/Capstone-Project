@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
 	 {
-		witdh: 100vw;
+		width: 100vw;
 		height: 100vh;
 		display: flex;
 		justify-content: center;
@@ -26,6 +26,7 @@ const Wrapper = styled.div`
 		border-radius: 5px;
 		margin: 0.5rem;
 		margin-left: 1.1rem;
+		margin-right: 1.1rem;
 		width: 16.25rem;
 		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 		border: white;

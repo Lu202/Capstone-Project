@@ -116,7 +116,7 @@ export default function Form() {
 							type="text"
 							{...register('notes', {
 								required: 'Add notes',
-								maxLength: 170,
+								maxLength: 300,
 							})}
 							placeholder="Notes"
 						/>

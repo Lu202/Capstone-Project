@@ -48,6 +48,9 @@ export default function Form() {
 							})}
 							placeholder="Name"
 						/>
+						{errors.name && errors.name.type === 'required' && (
+							<span role="alert">Please enter a name</span>
+						)}
 					</div>
 					<div>
 						<Label htmlFor="health">health</Label>

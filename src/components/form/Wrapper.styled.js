@@ -36,7 +36,13 @@ const Wrapper = styled.div`
 		outline: none;
 		border: 1px solid #1592e6;
 	}
-
+	span {
+		display: flex;
+		font-size: 0.75em;
+		color: red;
+		margin-left: 1.25rem;
+		font-style: italic;
+	}
 	h4 {
 		text-align: center;
 		padding-top: 2.5rem;

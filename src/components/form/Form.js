@@ -3,6 +3,8 @@ import { useForm } from 'react-hook-form';
 import InputContainer from './Form.styeld';
 import useStore from './useStore/useStore';
 import Wrapper from './Wrapper.styled';
+import ButtonContainer from './ButtonConatiner.styled.js';
+import Label from './Label.styled';
 
 export default function Form() {
 	const addNewCard = useStore(state => state.addNewCard);
@@ -33,6 +35,7 @@ export default function Form() {
 			<form onSubmit={handleSubmit(onSubmit)}>
 				<InputContainer>
 					<h4>Animal Profil</h4>
+					<Label htmlFor="name">name</Label>
 
 					<div>
 						<input
@@ -47,6 +50,7 @@ export default function Form() {
 						/>
 					</div>
 					<div>
+						<Label htmlFor="health">health</Label>
 						<input
 							id="health"
 							type="text"
@@ -54,21 +58,23 @@ export default function Form() {
 								required: 'Add health status ',
 								maxLength: 170,
 							})}
-							placeholder="Zustand"
+							placeholder="Health"
 						/>
 					</div>
 					<div>
+						<Label htmlFor="behave">behave</Label>
 						<input
 							id="behave"
 							type="text"
 							{...register('behave', {
-								required: 'Add health status',
+								required: 'Add behavior',
 								maxLength: 70,
 							})}
 							placeholder="Character"
 						/>
 					</div>
 					<div>
+						<Label htmlFor="age">age</Label>
 						<input
 							id="age"
 							type="text"
@@ -80,6 +86,7 @@ export default function Form() {
 						/>
 					</div>
 					<div>
+						<Label htmlFor="feed">feed</Label>
 						<input
 							id="feed"
 							type="text"
@@ -91,6 +98,7 @@ export default function Form() {
 						/>
 					</div>
 					<div>
+						<Label htmlFor="ocation">location</Label>
 						<input
 							id="location"
 							type="text"
@@ -102,6 +110,7 @@ export default function Form() {
 						/>
 					</div>
 					<div>
+						<Label htmlFor="notes">notes</Label>
 						<input
 							id="notes"
 							type="text"
@@ -112,11 +121,11 @@ export default function Form() {
 							placeholder="Notes"
 						/>
 					</div>
-					<section>
+					<ButtonContainer>
 						<button type="submit" onClick={handleClick}>
 							{buttonText}
 						</button>
-					</section>
+					</ButtonContainer>
 				</InputContainer>
 			</form>
 		</Wrapper>

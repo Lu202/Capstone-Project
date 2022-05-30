@@ -85,10 +85,6 @@ const useStore = create(
 				};
 			});
 		},
-		cardStatus: null,
-		updateCard: cardStatus => {
-			set({ cardStatus });
-		},
 	}))
 );
 

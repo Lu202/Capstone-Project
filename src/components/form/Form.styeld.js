@@ -2,11 +2,14 @@ import styled from 'styled-components';
 
 const InputContainer = styled.div`
 	background-color: #f0f0f0;
-	width: 300px;
-	height: 620px;
-	display:flex: center;
-	padding-left: 1.8rem;
-	padding-top:20px;
+	width: 18.75rem;
+	display: flex:
+	padding-top: 1.25rem;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	
+
 	
 
 

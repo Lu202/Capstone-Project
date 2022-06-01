@@ -5,7 +5,7 @@ export default function Navbar() {
 	return (
 		<NavContainer>
 			<nav>
-				<Link passHref href="/home">
+				<Link passHref href="/">
 					<a>
 						<svg
 							width="33"

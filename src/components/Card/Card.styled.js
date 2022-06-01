@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 const CardContainer = styled.div`
-	max-width: 18rem;
+	max-width: 19rem;
 	background: #f0f0f0;
 	border-radius: 50px;
 	display: flex;

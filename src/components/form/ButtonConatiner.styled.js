@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 const ButtonContainer = styled.div`
 	button {
-		margin-left: 4.625rem;
-		margin-top: 2.188rem;
+		margin-left: 6.2rem;
+		margin-top: 1rem;
 		margin-bottom: 2.5rem;
 	}
 `;

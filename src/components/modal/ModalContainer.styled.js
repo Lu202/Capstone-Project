@@ -29,12 +29,8 @@ img{
 
     
     width: 80px;
-    border-radius: 50%;
-  
-  
+    border-radius: 50%;  
 }
-
-
 `;
 
 export default ModalContainer;

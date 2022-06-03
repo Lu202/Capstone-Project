@@ -99,6 +99,7 @@ export default function Form() {
 							aria-invalid={errors.name ? 'true' : 'false'}
 							{...register('name', {
 								required: 'Add animal name',
+								pattern: /\S(.*\S)?/,
 								maxLength: 20,
 							})}
 							placeholder="Name"
@@ -114,6 +115,7 @@ export default function Form() {
 							type="text"
 							{...register('health', {
 								required: 'Add health status ',
+								pattern: /\S(.*\S)?/,
 								maxLength: 170,
 							})}
 							placeholder="Health"
@@ -126,6 +128,7 @@ export default function Form() {
 							type="text"
 							{...register('behave', {
 								required: 'Add behavior',
+								pattern: /\S(.*\S)?/,
 								maxLength: 70,
 							})}
 							placeholder="Character"
@@ -138,6 +141,7 @@ export default function Form() {
 							type="text"
 							{...register('age', {
 								required: 'Add age',
+								pattern: /\S(.*\S)?/,
 								maxLength: 70,
 							})}
 							placeholder="Age"
@@ -150,6 +154,7 @@ export default function Form() {
 							type="text"
 							{...register('feed', {
 								required: 'Add feed',
+								pattern: /\S(.*\S)?/,
 								maxLength: 70,
 							})}
 							placeholder="Feed"
@@ -162,6 +167,7 @@ export default function Form() {
 							type="text"
 							{...register('location', {
 								required: 'Add location',
+								pattern: /\S(.*\S)?/,
 								maxLength: 70,
 							})}
 							placeholder="Location"
@@ -174,6 +180,7 @@ export default function Form() {
 							type="text"
 							{...register('notes', {
 								required: 'Add notes',
+								pattern: /\S(.*\S)?/,
 								maxLength: 300,
 							})}
 							placeholder="Notes"

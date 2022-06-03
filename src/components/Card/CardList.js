@@ -11,6 +11,7 @@ function CardList() {
 				return (
 					<Card
 						key={item.id}
+						id={item.id}
 						name={item.name}
 						image={item.image}
 						health={item.health}

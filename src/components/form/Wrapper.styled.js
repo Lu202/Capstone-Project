@@ -52,10 +52,10 @@ const Wrapper = styled.div`
 	}
 	h4 {
 		text-align: center;
-		padding-top: 2.5rem;
+		padding-top: 1.1rem;
 		letter-spacing: 0.1em;
 		line-height: 1.3rem;
-		padding-bottom: 2.5rem;
+		padding-bottom: 0.6rem;
 		font-size: 1em;
 		color: #000000;
 	}

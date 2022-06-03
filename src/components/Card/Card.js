@@ -2,24 +2,18 @@ import CardContainer from './Card.styled';
 import Image from 'next/image';
 import { useState } from 'react';
 import Modal from '../modal/Modal';
+import ImgContainer from './ImgContainer.styled';
 import CardWrapper from './CardWrapper.styled';
 
 function Card({ name, health, age, feed, location, notes, image, behave }) {
 	const [openModal, setOpenModal] = useState(false);
-
 	return (
 		<>
 			<CardWrapper>
 				<CardContainer>
-					{image && (
-						<Image
-							className="Card-image"
-							src={image}
-							alt="Hund"
-							width="50"
-							height="50"
-						/>
-					)}
+					<ImgContainer>
+						<Image src={image.url} alt="Hund" width="50" height="50" />
+					</ImgContainer>
 					<h2>{name}</h2>
 
 					<svg
@@ -50,7 +44,7 @@ function Card({ name, health, age, feed, location, notes, image, behave }) {
 					feed={feed}
 					location={location}
 					notes={notes}
-					image={image}
+					image={image.url}
 				/>
 			)}
 		</>

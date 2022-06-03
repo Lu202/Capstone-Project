@@ -8,7 +8,7 @@ const useStore = create(
 			{
 				id: 1,
 				name: 'Struppi',
-				image: '/hund1.png',
+				image: { url: '/hund1.png' },
 				health: 'Fit',
 				behave: 'verspielt',
 				age: '4 Jahre',
@@ -19,7 +19,7 @@ const useStore = create(
 			{
 				id: 2,
 				name: 'Kasper',
-				image: '/hund3.png',
+				image: { url: '/hund3.png' },
 				health: 'Fit',
 				behave: 'lebhaft',
 				age: '2 jahre',
@@ -30,7 +30,7 @@ const useStore = create(
 			{
 				id: 3,
 				name: 'Heidi',
-				image: '/hund1.png',
+				image: { url: '/hund1.png' },
 				health: 'Fit',
 				behave: 'Temperament',
 				age: '1 Jahr',
@@ -41,7 +41,7 @@ const useStore = create(
 			{
 				id: 4,
 				name: 'Pepe',
-				image: '/hund2.png',
+				image: { url: '/hund2.png' },
 				health: 'Fit',
 				behave: 'verspielt',
 				age: '2 Jahre',
@@ -52,7 +52,7 @@ const useStore = create(
 			{
 				id: 5,
 				name: 'Twiny',
-				image: '/hund4.png',
+				image: { url: '/hund4.png' },
 				healt: 'Fit',
 				behave: 'lieb',
 				age: '3 Jahre',

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-//import "./Modal.css";
+
 import Image from 'next/image';
 import ModalBackground from './ModalCard.styled';
 import ModalContainer from './ModalContainer.styled';

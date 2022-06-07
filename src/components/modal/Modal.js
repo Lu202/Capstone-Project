@@ -1,5 +1,4 @@
 import { useState } from 'react';
-
 import Image from 'next/image';
 import ModalBackground from './ModalCard.styled';
 import ModalContainer from './ModalContainer.styled';
@@ -7,9 +6,13 @@ import Title from './Title.styled';
 import TitleCloseBtn from './TitleCloseBtn.styled';
 import ImageContainer from './ImageContainer.styled';
 import ModelBody from './ModelBody.styled';
+import MySvg from '../Basics/Icons/icons';
+import DeleteButton from '../button/DeleteButton.styled';
+import useStore from '../form/useStore/useStore';
 
-function Modal({ setOpenModal, name, health, age, feed, location, image, notes, behave }) {
+function Modal({ setOpenModal, name, health, age, feed, location, image, notes, behave, id }) {
 	const [show, setShow] = useState(false);
+	const deleteCard = useStore(state => state.deleteCard);
 	const handleOpen = () => {
 		setShow(!show);
 	};
@@ -40,6 +43,18 @@ function Modal({ setOpenModal, name, health, age, feed, location, image, notes, 
 						{show ? '🐈 Go back' : 'About me 🐕'}
 					</button>
 				</ModelBody>
+				<DeleteButton>
+					<button
+						type="button"
+						onClick={() => {
+							deleteCard(id);
+						}}
+					>
+						<MySvg variant="delete" color="#1592e6">
+							Löschen
+						</MySvg>
+					</button>
+				</DeleteButton>
 			</ModalContainer>
 		</ModalBackground>
 	);

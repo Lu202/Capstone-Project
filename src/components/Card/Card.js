@@ -5,7 +5,7 @@ import Modal from '../modal/Modal';
 import ImgContainer from './ImgContainer.styled';
 import CardWrapper from './CardWrapper.styled';
 
-function Card({ name, health, age, feed, location, notes, image, behave }) {
+function Card({ name, health, age, feed, location, notes, image, behave, id }) {
 	const [openModal, setOpenModal] = useState(false);
 	return (
 		<>
@@ -45,6 +45,7 @@ function Card({ name, health, age, feed, location, notes, image, behave }) {
 					location={location}
 					notes={notes}
 					image={image.url}
+					id={id}
 				/>
 			)}
 		</>

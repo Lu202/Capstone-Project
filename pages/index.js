@@ -1,4 +1,4 @@
-import { FrontPage } from '../src/components/home/FrontPage';
+import FrontPage from '../src/components/home/FrontPage';
 
 export default function Home() {
 	return (

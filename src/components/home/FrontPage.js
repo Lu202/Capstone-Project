@@ -4,7 +4,7 @@ import WrapperPage from './WrapperPage.styled';
 import ContainerImage from './ContainerImage.styled';
 import Header from './Header.styled';
 
-function FrontPage() {
+export default function FrontPage() {
 	return (
 		<WrapperPage>
 			<ContainerImage>
@@ -34,4 +34,3 @@ function FrontPage() {
 		</WrapperPage>
 	);
 }
-export default FrontPage;
